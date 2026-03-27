@@ -1,0 +1,21 @@
+.contact-entry {
+  display: flex;
+  gap: 10px;
+  align-items: baseline;
+  font-family: 'Share Tech Mono', monospace;
+  font-size: 12px;
+  margin-top: 8px;
+}
+
+.contact-key {
+  color: #666;
+  font-size: 11px;
+  min-width: 70px;
+}
+
+.contact-list p {
+  font-family: 'Share Tech Mono', monospace;
+  font-size: 12px;
+  line-height: 1.9;
+  color: #000;
+}

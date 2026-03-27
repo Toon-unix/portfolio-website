@@ -1,0 +1,178 @@
+body {
+  background-color: #008080;
+  font-family: "Times New Roman", Times, serif;
+  margin: 0;
+  padding: 20px;
+}
+
+.box {
+  width: 800px;
+  min-height: 560px;
+  background: #f5f5dc;
+  margin: 50px auto;
+  border: 4px solid black;
+  box-shadow: 10px 10px 0px 0px rgba(0,0,0,0.5);
+  display: flex;
+}
+
+/* ── Main content ── */
+.main-content {
+  flex: 1;
+  padding: 24px 26px 18px;
+  display: flex;
+  flex-direction: column;
+}
+
+h1 {
+  border-bottom: 2px solid black;
+  font-family: 'Share Tech Mono', monospace;
+  font-size: 17px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  padding-bottom: 6px;
+  margin-bottom: 14px;
+}
+
+hr {
+  border: none;
+  border-top: 1px dashed #999;
+  margin: 12px 0;
+}
+
+p {
+  font-size: 13px;
+  line-height: 1.7;
+  color: #000;
+}
+
+.section {
+  margin-bottom: 4px;
+}
+
+.section-label {
+  font-family: 'Share Tech Mono', monospace;
+  font-size: 10px;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  border-bottom: 1px solid black;
+  display: inline-block;
+  margin-bottom: 7px;
+  color: #000;
+}
+
+a {
+  color: blue;
+  text-decoration: underline;
+  font-size: 13px;
+}
+
+a:hover {
+  color: red;
+  background: yellow;
+}
+
+.line {
+  width: 4px;
+  background: black;
+}
+
+.sidebar {
+  width: 195px;
+  display: flex;
+  flex-direction: column;
+  padding: 16px 14px;
+  gap: 13px;
+  background: #d3d3d3;
+}
+
+.sidebar-title {
+  font-family: 'Share Tech Mono', monospace;
+  font-weight: bold;
+  font-size: 12px;
+  text-decoration: underline;
+}
+
+.sb-divider {
+  border: none;
+  border-top: 1px dashed #888;
+  margin: 0;
+}
+
+
+.links {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.frog-box {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.ascii-frog {
+  font-family: 'Share Tech Mono', monospace;
+  font-size: 11px;
+  line-height: 1.4;
+  background: #ece8d0;
+  border: 1px solid #aaa;
+  padding: 8px 10px;
+  margin: 0;
+  white-space: pre;
+  color: #000;
+}
+
+
+.online-dot {
+  width: 8px;
+  height: 8px;
+  background: #00cc00;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+
+.til-box {
+  background: #ece8d0;
+  border: 1px solid #aaa;
+  padding: 8px 9px;
+  font-family: 'Share Tech Mono', monospace;
+  font-size: 11px;
+  line-height: 1.7;
+  color: #000;
+}
+
+.til-date {
+  font-size: 10px;
+  color: #666;
+  margin-bottom: 4px;
+}
+
+
+
+.til-source {
+  font-size: 10px;
+  color: #555;
+  margin-top: 6px;
+  border-top: 1px dashed #aaa;
+  padding-top: 5px;
+}
+
+.til-source a { font-size: 10px; }
+
+
+.foss-box {
+  background: #ece8d0;
+  border: 1px solid #aaa;
+  padding: 7px 9px;
+  font-family: 'Share Tech Mono', monospace;
+}
+
+.foss-line {
+  font-size: 10px;
+  line-height: 1.9;
+  color: #000;
+  margin: 0;
+}
