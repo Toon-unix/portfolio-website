@@ -23,3 +23,11 @@
   background: #0000cc;
   color: #fff;
 }
+
+@media (max-width: 768px) {
+  .profile-pic {
+    width: 96px;
+    height: 96px;
+    margin: 10px auto;
+  }
+}

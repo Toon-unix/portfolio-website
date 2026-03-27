@@ -19,3 +19,20 @@
   line-height: 1.9;
   color: #000;
 }
+
+@media (max-width: 768px) {
+  .contact-entry {
+    flex-direction: column;
+    gap: 4px;
+    align-items: flex-start;
+  }
+
+  .contact-key {
+    min-width: 0;
+  }
+
+  .contact-entry a {
+    overflow-wrap: anywhere;
+    word-break: break-word;
+  }
+}
