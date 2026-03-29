@@ -1,0 +1,34 @@
+.cv-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  margin-top: 10px;
+}
+
+.cv-button {
+  display: inline-block;
+  font-family: 'Share Tech Mono', monospace;
+  font-size: 12px;
+  line-height: 1.3;
+  text-decoration: none;
+  color: #fff;
+  background: #000080;
+  border: 2px solid black;
+  padding: 8px 14px;
+}
+
+.cv-button:hover {
+  background: #0000cc;
+  color: #fff;
+}
+
+@media (max-width: 768px) {
+  .cv-actions {
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  .cv-button {
+    text-align: center;
+  }
+}

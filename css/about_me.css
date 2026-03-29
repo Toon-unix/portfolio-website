@@ -7,23 +7,6 @@
   margin: 10px 0;
 }
 
-.cv-button {
-  display: inline-block;
-  margin-top: 8px;
-  font-family: 'Share Tech Mono', monospace;
-  font-size: 12px;
-  background: #000080;
-  color: #fff;
-  text-decoration: none;
-  padding: 6px 14px;
-  border: 2px solid black;
-}
-
-.cv-button:hover {
-  background: #0000cc;
-  color: #fff;
-}
-
 @media (max-width: 768px) {
   .profile-pic {
     width: 96px;
