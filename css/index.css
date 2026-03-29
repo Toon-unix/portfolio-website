@@ -119,7 +119,7 @@ a:hover {
   gap: 6px;
 }
 
-.ascii-frog {
+.ascii-penguin {
   font-family: 'Share Tech Mono', monospace;
   font-size: 11px;
   line-height: 1.4;
@@ -225,7 +225,7 @@ a:hover {
     gap: 8px 14px;
   }
 
-  .ascii-frog {
+  .ascii-penguin {
     overflow-x: auto;
   }
 
