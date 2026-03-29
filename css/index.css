@@ -113,7 +113,7 @@ a:hover {
   gap: 10px;
 }
 
-.frog-box {
+.tux-box {
   display: flex;
   flex-direction: column;
   gap: 6px;
@@ -169,7 +169,9 @@ a:hover {
   padding-top: 5px;
 }
 
-.til-source a { font-size: 10px; }
+.til-source a { 
+  font-size: 10px; 
+}
 
 
 .foss-box {
@@ -194,8 +196,6 @@ a:hover {
   .box {
     margin: 18px auto;
   }
-
-
 
   .box {
     flex-direction: column;
