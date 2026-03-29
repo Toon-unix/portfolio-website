@@ -1,0 +1,34 @@
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 267.34 267.34">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: url(#New_Gradient_Swatch_1);
+      }
+    </style>
+    <linearGradient id="New_Gradient_Swatch_1" data-name="New Gradient Swatch 1" x1="150.99" y1="28.9" x2="150.99" y2="267.41" gradientTransform="translate(148.99 -63.37) rotate(45)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#ffce0a"/>
+      <stop offset="0.26" stop-color="#ffcb0a"/>
+      <stop offset="0.43" stop-color="#ffc30a"/>
+      <stop offset="0.57" stop-color="#ffb40a"/>
+      <stop offset="0.7" stop-color="#ff9f0a"/>
+      <stop offset="0.82" stop-color="#ff830a"/>
+      <stop offset="0.92" stop-color="#ff630a"/>
+      <stop offset="1" stop-color="#ff470a"/>
+    </linearGradient>
+  </defs>
+  <title>sin_logo</title>
+  <g id="SL_R" data-name="SL+R">
+    <g id="Shiny_Logo" data-name="Shiny Logo">
+      <g id="Logo">
+        <rect id="Black-Outside" x="56.22" y="53.97" width="189.04" height="189.04" transform="translate(-77.92 135.26) rotate(-45)"/>
+        <rect id="Yellow-Inside" class="cls-1" x="66.67" y="63.83" width="168.65" height="168.65" transform="translate(-77.61 135.34) rotate(-45)"/>
+        <g id="Smiley">
+          <polygon points="98.42 86.59 108.92 86.59 106.05 149.72 101.05 149.72 98.42 86.59"/>
+          <rect x="98.42" y="161.59" width="10.5" height="9"/>
+          <rect x="127.92" y="124.34" width="26" height="8.5"/>
+          <path d="M179.49,101.41s22,42.13,0,84h5.23s27.77-39.5.77-84Z" transform="translate(-17.07 -14.82)"/>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>
