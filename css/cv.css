@@ -36,6 +36,9 @@
 
 .skills-list li {
   margin-bottom: 6px;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 13px;
+  line-height: 1.7;
 }
 
 @media (max-width: 768px) {
@@ -51,5 +54,10 @@
   .skills-grid {
     grid-template-columns: 1fr;
     gap: 4px;
+  }
+
+  .skills-list li {
+    font-size: 12px;
+    line-height: 1.65;
   }
 }
