@@ -1,7 +1,60 @@
+.cv-page {
+  padding: 8px;
+}
+
+.cv-page .box {
+  flex-direction: column;
+  min-height: auto;
+  margin: 8px auto;
+  border-width: 3px;
+  box-shadow: 5px 5px 0px 0px rgba(0, 0, 0, 0.45);
+  box-sizing: border-box;
+}
+
+.cv-page .main-content {
+  padding: 18px 16px 14px;
+  box-sizing: border-box;
+}
+
+.cv-page .line {
+  width: 100%;
+  height: 3px;
+}
+
+.cv-page .sidebar {
+  width: auto;
+  padding: 14px 12px;
+  gap: 10px;
+  box-sizing: border-box;
+}
+
+.cv-page .links {
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 8px 14px;
+}
+
+.cv-page h1 {
+  font-size: 15px;
+  letter-spacing: 0.6px;
+}
+
+.cv-page p,
+.cv-page a {
+  font-size: 12px;
+  line-height: 1.65;
+  overflow-wrap: anywhere;
+}
+
+.cv-page .section-label {
+  font-size: 9px;
+}
+
 .cv-actions {
   display: flex;
-  flex-wrap: wrap;
-  gap: 12px;
+  flex-direction: column;
+  align-items: stretch;
+  gap: 10px;
   margin-top: 10px;
 }
 
@@ -10,6 +63,7 @@
   font-family: 'Share Tech Mono', monospace;
   font-size: 12px;
   line-height: 1.3;
+  text-align: center;
   text-decoration: none;
   color: #fff;
   background: #000080;
@@ -24,8 +78,8 @@
 
 .skills-grid {
   display: grid;
-  grid-template-columns: repeat(2, minmax(0, 1fr));
-  gap: 8px 24px;
+  grid-template-columns: 1fr;
+  gap: 4px;
   margin-top: 10px;
 }
 
@@ -37,27 +91,73 @@
 .skills-list li {
   margin-bottom: 6px;
   font-family: "Times New Roman", Times, serif;
-  font-size: 13px;
-  line-height: 1.7;
+  font-size: 12px;
+  line-height: 1.65;
 }
 
-@media (max-width: 768px) {
-  .cv-actions {
-    flex-direction: column;
-    align-items: stretch;
+@media (min-width: 769px) {
+  .cv-page {
+    padding: 20px;
   }
 
-  .cv-button {
-    text-align: center;
+  .cv-page .box {
+    flex-direction: row;
+    max-width: 800px;
+    min-height: 560px;
+    margin: 50px auto;
+    border-width: 4px;
+    box-shadow: 10px 10px 0px 0px rgba(0, 0, 0, 0.5);
+  }
+
+  .cv-page .main-content {
+    padding: 24px 26px 18px;
+  }
+
+  .cv-page .line {
+    width: 4px;
+    height: auto;
+  }
+
+  .cv-page .sidebar {
+    width: 195px;
+    padding: 16px 14px;
+    gap: 13px;
+  }
+
+  .cv-page .links {
+    flex-direction: column;
+    flex-wrap: nowrap;
+    gap: 10px;
+  }
+
+  .cv-page h1 {
+    font-size: 17px;
+    letter-spacing: 1px;
+  }
+
+  .cv-page p,
+  .cv-page a {
+    font-size: 13px;
+    line-height: 1.7;
+  }
+
+  .cv-page .section-label {
+    font-size: 10px;
+  }
+
+  .cv-actions {
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 12px;
   }
 
   .skills-grid {
-    grid-template-columns: 1fr;
-    gap: 4px;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 8px 24px;
   }
 
   .skills-list li {
-    font-size: 12px;
-    line-height: 1.65;
+    font-size: 13px;
+    line-height: 1.7;
   }
 }
