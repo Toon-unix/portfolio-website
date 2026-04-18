@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="500" viewBox="0 0 800 500" role="img" aria-labelledby="title desc">
+  <title id="title">FarmPoint project preview</title>
+  <desc id="desc">Retro styled placeholder illustration for the FarmPoint project.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#dff0d4"/>
+      <stop offset="100%" stop-color="#86b86f"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="500" fill="url(#bg)"/>
+  <rect x="32" y="32" width="736" height="436" rx="20" fill="#f8fbf3" stroke="#000" stroke-width="8"/>
+  <rect x="70" y="82" width="250" height="160" rx="18" fill="#b6d88a" stroke="#000" stroke-width="6"/>
+  <path d="M95 214 L155 144 L205 176 L263 118 L295 140" fill="none" stroke="#2f5e24" stroke-width="10" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="160" cy="144" r="18" fill="#2f5e24"/>
+  <circle cx="205" cy="176" r="18" fill="#2f5e24"/>
+  <circle cx="263" cy="118" r="18" fill="#2f5e24"/>
+  <rect x="372" y="84" width="320" height="106" rx="18" fill="#f1f6d8" stroke="#000" stroke-width="6"/>
+  <text x="402" y="132" font-family="Share Tech Mono, monospace" font-size="44" font-weight="700" fill="#000">FarmPoint</text>
+  <text x="402" y="170" font-family="Share Tech Mono, monospace" font-size="21" fill="#355">useful software with purpose</text>
+  <rect x="92" y="286" width="616" height="128" rx="16" fill="#edf6e1" stroke="#000" stroke-width="5"/>
+  <text x="122" y="332" font-family="Times New Roman, serif" font-size="34" fill="#000">A focused product shape</text>
+  <text x="122" y="374" font-family="Times New Roman, serif" font-size="28" fill="#222">Clarity, reliability, and shipping value</text>
+</svg>

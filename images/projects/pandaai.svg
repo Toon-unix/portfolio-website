@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="500" viewBox="0 0 800 500" role="img" aria-labelledby="title desc">
+  <title id="title">PandaAI project preview</title>
+  <desc id="desc">Retro styled placeholder illustration for the PandaAI project.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#eadcff"/>
+      <stop offset="100%" stop-color="#9f7ad8"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="500" fill="url(#bg)"/>
+  <rect x="32" y="32" width="736" height="436" rx="20" fill="#fbf8ff" stroke="#000" stroke-width="8"/>
+  <circle cx="184" cy="180" r="86" fill="#222"/>
+  <circle cx="150" cy="152" r="16" fill="#fff"/>
+  <circle cx="218" cy="152" r="16" fill="#fff"/>
+  <ellipse cx="184" cy="192" rx="30" ry="24" fill="#fff"/>
+  <rect x="340" y="92" width="330" height="116" rx="18" fill="#f0e5ff" stroke="#000" stroke-width="6"/>
+  <text x="372" y="140" font-family="Share Tech Mono, monospace" font-size="44" font-weight="700" fill="#000">PandaAI</text>
+  <text x="372" y="178" font-family="Share Tech Mono, monospace" font-size="21" fill="#433">modeling / prompting / learning</text>
+  <rect x="92" y="302" width="616" height="110" rx="16" fill="#f5ecff" stroke="#000" stroke-width="5"/>
+  <text x="122" y="346" font-family="Times New Roman, serif" font-size="34" fill="#000">AI experiments with a clear use case</text>
+  <text x="122" y="388" font-family="Times New Roman, serif" font-size="28" fill="#222">Approach, iteration, and takeaways</text>
+</svg>
