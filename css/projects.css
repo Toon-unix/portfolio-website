@@ -52,9 +52,17 @@
 
 .project-grid {
   display: grid;
-  grid-template-columns: repeat(2, minmax(0, 1fr));
+  grid-template-columns: repeat(2, minmax(220px, 1fr));
   gap: 12px;
   margin-top: 10px;
+  width: 100%;
+  grid-auto-flow: row;
+}
+
+.project-tile:last-child {
+  grid-column: 1 / -1;
+  justify-self: center;
+  width: min(100%, calc((100% - 12px) / 2));
 }
 
 .project-tile {
@@ -186,8 +194,12 @@
   }
 
   .project-grid {
-    grid-template-columns: repeat(2, minmax(0, 1fr));
+    grid-template-columns: repeat(2, minmax(220px, 1fr));
     gap: 14px;
+  }
+
+  .project-tile:last-child {
+    width: min(100%, calc((100% - 14px) / 2));
   }
 
   .project-name {
