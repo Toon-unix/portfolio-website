@@ -141,6 +141,14 @@ a:hover {
   display: inline-block;
 }
 
+.offline-dot {
+  width: 8px;
+  height: 8px;
+  background: #cc0000;
+  border-radius: 50%;
+  display: inline-block;
+}
+
 
 .til-box {
   background: #ece8d0;
