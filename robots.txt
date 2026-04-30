@@ -20,5 +20,3 @@ User-agent: *
 Disallow: /admin/
 Disallow: /private/
 Disallow: /config/
-
-Sitemap: https://www.yourdomain.com/sitemap.xml

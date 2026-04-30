@@ -1,0 +1,170 @@
+.error-page {
+  padding: 8px;
+}
+
+.error-page .box {
+  flex-direction: column;
+  min-height: auto;
+  margin: 8px auto;
+  border-width: 3px;
+  box-shadow: 5px 5px 0px 0px rgba(0, 0, 0, 0.45);
+  box-sizing: border-box;
+}
+
+.error-page .main-content {
+  padding: 18px 16px 14px;
+  box-sizing: border-box;
+}
+
+.error-page .line {
+  width: 100%;
+  height: 3px;
+}
+
+.error-page .sidebar {
+  width: auto;
+  padding: 14px 12px;
+  gap: 10px;
+  box-sizing: border-box;
+}
+
+.error-page .links {
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 8px 14px;
+}
+
+.error-page h1 {
+  font-size: 15px;
+  letter-spacing: 0.6px;
+}
+
+.error-page .main-content p,
+.error-page .main-content a {
+  font-size: 12px;
+  line-height: 1.65;
+  overflow-wrap: anywhere;
+}
+
+.error-page .section-label {
+  font-size: 9px;
+}
+
+.error-text {
+  margin-bottom: 0;
+}
+
+.error-panel {
+  background: #ece8d0;
+  border: 1px solid #aaa;
+  padding: 10px 12px;
+}
+
+.error-code {
+  font-family: 'Share Tech Mono', monospace;
+  font-size: 10px;
+  text-transform: uppercase;
+  letter-spacing: 0.8px;
+  color: #555;
+  margin-bottom: 8px;
+}
+
+.error-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+.error-button {
+  display: inline-block;
+  font-family: 'Share Tech Mono', monospace;
+  font-size: 12px;
+  line-height: 1.3;
+  text-align: center;
+  text-decoration: none;
+  color: #fff;
+  background: #000080;
+  border: 2px solid black;
+  padding: 8px 14px;
+}
+
+.error-button.secondary {
+  background: #4b4b4b;
+}
+
+.error-button:hover {
+  background: #0000cc;
+  color: #fff;
+}
+
+.error-button.secondary:hover {
+  background: #666;
+}
+
+@media (max-width: 768px) {
+  .error-page .main-content p,
+  .error-page .main-content a {
+    font-size: 12px;
+    line-height: 1.65;
+  }
+
+  .error-page .section-label {
+    font-size: 9px;
+  }
+}
+
+@media (min-width: 769px) {
+  .error-page {
+    padding: 20px;
+  }
+
+  .error-page .box {
+    flex-direction: row;
+    max-width: 800px;
+    min-height: 560px;
+    margin: 50px auto;
+    border-width: 4px;
+    box-shadow: 10px 10px 0px 0px rgba(0, 0, 0, 0.5);
+  }
+
+  .error-page .main-content {
+    padding: 24px 26px 18px;
+  }
+
+  .error-page .line {
+    width: 4px;
+    height: auto;
+  }
+
+  .error-page .sidebar {
+    width: 195px;
+    padding: 16px 14px;
+    gap: 13px;
+  }
+
+  .error-page .links {
+    flex-direction: column;
+    flex-wrap: nowrap;
+    gap: 10px;
+  }
+
+  .error-page h1 {
+    font-size: 17px;
+    letter-spacing: 1px;
+  }
+
+  .error-page .main-content p,
+  .error-page .main-content a {
+    font-size: 13px;
+    line-height: 1.7;
+  }
+
+  .error-page .section-label {
+    font-size: 10px;
+  }
+
+  .error-code {
+    font-size: 11px;
+  }
+}
