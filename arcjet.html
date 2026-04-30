@@ -2,32 +2,33 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <title>DumperBumper</title>
-    <meta name="description" content="DumperBumper project details.">
+    <title>ArcJet</title>
+    <meta name="description" content="Showcasing skills in Cloud & Cybersecurity.">
     <meta lang="nl">
+    <meta name="keywords" content="portfolio, web development, projects, skills, cybersecurity">
     <meta name="author" content="Toon Bosmans">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" type="image/x-icon" href="/images/favicon.ico">
     <link rel="stylesheet" href="css/index.css">
     <link rel="stylesheet" href="css/project-detail.css">
-    <link rel="icon" type="image/x-icon" href="/images/favicon.ico">
     <link href="https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap" rel="stylesheet">
   </head>
   <body class="project-page">
     <div class="box">
       <div class="main-content">
-        <h1>DumperBumper</h1>
+        <h1>ArcJet</h1>
 
         <div class="section">
           <p>
-            DumperBumper is a hands-on project page for experiments, problem solving, and iterating on something useful.
+            ArcJet is an ongoing skiL2 project focused on building a hosting platform for others. A multi-tenant containerization solution with Kubernetes orchestration.
           </p>
         </div>
 
-        <img class="project-hero" src="images/projects/dumperbumper.png" alt="DumperBumper project preview">
+        <img class="project-hero" src="images/projects/arcjet.png" alt="ArcJet project preview">
 
         <div class="project-summary-block">
           <p>
-            A practical project focused on learning by doing, with a clear problem to solve and a tangible outcome to share.
+            A practical hosting platform allowing users to deploy containerized applications with zero infrastructure knowledge. Think of it as a simplified, school-focused Heroku alternative.
           </p>
         </div>
 
@@ -37,8 +38,10 @@
           <div class="project-card">
             <h2>Overview</h2>
             <p>
-                We got tasked with designing, testing and making a hosting platform for our internal client. For now the project consists of logging in, where you can then log in. Logged in you can see all your projects you have already made. Afterwards you can click to make a new project, where you can upload HTML (for now at least) and you can follow along where the file is in its upload stage. File uploaded? Then click the "visit website" button which appears to take you straight to your hosted website inside of a kubernetes container. The primary and two secondary kubernetes cluster being on seperate VMs. 
-                This project is still in development, but it already has taught me so so much, such as how to lead a team, which I have never done before. It's a quite exciting projects, especially when you get to see your teammates work on it I get glee in my eyes.
+              We got tasked with designing, testing, and making a hosting platform for our internal client. Currently, the platform consists of user authentication and dashboard access. Logged in, users can see all their deployed projects. From there, they can create a new project, upload containerized applications (supporting Docker images), and monitor the upload stage in real-time. Once deployment completes, users can visit their hosted application running inside a Kubernetes container.
+            </p>
+            <p style="margin-top: 12px;">
+              The backend orchestrates across a primary Kubernetes cluster with two secondary replicas on separate VMs for high availability. This project is still in active development, but it has already taught me invaluable lessons about team leadership—something I'd never done before.
             </p>
           </div>
 
@@ -46,26 +49,39 @@
           <div class="project-card">
             <h2>Background</h2>
             <p>
-              This project was made as part of the “IoT Essentials” course at Thomas More University of Applied Sciences. As one of the first group projects we worked on, we were placed together with other students following the same course. Luckily, my team quickly got to know each other, and before long, we were coordinating like a real team.
-
-My role focused on setting up AWS and the FastAPI backend to retrieve images from the bucket, make them available online, and send them to our frontend.
+              ArcJet is part of a capstone-style project at Thomas More University of Applied Sciences. Our goal: build something that works at scale, with real users (albeit students). The platform abstracts away infrastructure complexity, making deployment as simple as uploading a Dockerfile.
+            </p>
+            <p style="margin-top: 12px;">
+              My role centers on backend architecture, Kubernetes cluster setup, and leading the team through architectural decisions. Watching teammates contribute to something we're building together is incredibly rewarding.
             </p>
           </div>
 
           <div class="project-card">
             <h2>Technologies</h2>
             <ul>
-              <li>HTML/CSS</li>
-              <li>JavaScript</li>
-              <li>Kubernetes</li>
-              <li>Proxmox</li>
-              <li>Cloudflare Zero Trust Tunnel</li>
-              <li>PostgreSQL</li>
-              <li>MinIO</li>
-              <li>Harbor</li>
+              <li>Kubernetes (multi-cluster setup)</li>
+              <li>Docker &amp; container runtimes</li>
+              <li>FastAPI (backend)</li>
+              <li>PostgreSQL (user &amp; deployment data)</li>
+              <li>Proxmox (VM infrastructure)</li>
+              <li>Cloudflare Zero Trust Tunnel (secure access)</li>
+              <li>MinIO (artifact storage)</li>
+              <li>Harbor (private container registry)</li>
             </ul>
           </div>
-        </div>
+
+          <div class="project-card">
+            <h2>Key Takeaways</h2>
+            <ul>
+              <li>Real-time object detection using machine learning on edge devices</li>
+              <li>Integration of hardware sensors with cloud storage and analytics</li>
+              <li>Rapid prototyping under time constraints</li>
+              <li>Building something with genuine societal impact (combating litter)</li>
+            </ul>
+          </div>
+    
+
+          </div>
 
         <hr>
 
@@ -97,19 +113,19 @@ My role focused on setting up AWS and the FastAPI backend to retrieve images fro
           <a href="index.html">[ Home ]</a>
           <a href="about_me.html">[ About ]</a>
           <a href="cv.html">[ CV ]</a>
-          <a href="projects.html">[ Projects ]</a>
           <a href="blog.html">[ Blog ]</a>
           <a href="contact.html">[ Contact ]</a>
+          <a href="projects.html">[ Projects ]</a>
         </nav>
 
         <hr class="sb-divider">
 
         <div>
-          <div class="sidebar-title" style="margin-bottom: 8px;">&gt; Today I learned</div>
+          <div class="sidebar-title" style="margin-bottom: 8px;">&gt; TIL: </div>
           <div class="til-box">
-            <div class="til-date">16th of April 2026</div>
-            <div class="til-text">A man tried to preorder fallout 4 with bottle caps, saving the caps off of each bottle for 7 years. He sent the tender to Bethesda (the game publishers) offices, after joking that the office smelt like beer, they allowed him to preorder the game.</div>
-            <div class="til-source">via &rarr; <a href="https://www.eurogamer.net/fan-attempts-to-pre-order-fallout-4-with-bottle-caps" target="_blank">Eurogamer</a></div>
+            <div class="til-date">30th of April 2026</div>
+            <div class="til-text">Docker containers are based on Linux kernel features like cgroups and namespaces, which have been around since 2008.</div>
+            <div class="til-source">via &rarr; <a href="https://en.wikipedia.org/wiki/Docker_(software)" target="_blank">Wikipedia</a></div>
           </div>
         </div>
 

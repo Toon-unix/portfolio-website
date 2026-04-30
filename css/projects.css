@@ -39,11 +39,16 @@
   letter-spacing: 0.6px;
 }
 
-.projects-page p,
-.projects-page a {
+.projects-page .main-content p,
+.projects-page .main-content a {
   font-size: 12px;
   line-height: 1.65;
   overflow-wrap: anywhere;
+}
+
+.projects-page .main-content li {
+  font-size: 12px;
+  line-height: 1.65;
 }
 
 .projects-page .section-label {
@@ -114,7 +119,6 @@
 }
 
 .project-summary {
-  font-family: "Times New Roman", Times, serif;
   font-size: 12px;
   line-height: 1.55;
   margin-top: 0;
@@ -130,6 +134,23 @@
   margin-top: auto;
   padding-top: 5px;
   border-top: 1px dashed #aaa;
+}
+
+@media (max-width: 768px) {
+  .projects-page .main-content p,
+  .projects-page .main-content a {
+    font-size: 12px;
+    line-height: 1.65;
+  }
+
+  .projects-page .main-content li {
+    font-size: 12px;
+    line-height: 1.65;
+  }
+
+  .projects-page .section-label {
+    font-size: 9px;
+  }
 }
 
 @media (max-width: 640px) {
@@ -183,10 +204,15 @@
     letter-spacing: 1px;
   }
 
-  .projects-page p,
-  .projects-page a {
-    font-size: 13px;
-    line-height: 1.7;
+  .projects-page .main-content p,
+  .projects-page .main-content a {
+    font-size: 12px;
+    line-height: 1.65;
+  }
+
+  .projects-page .main-content li {
+    font-size: 12px;
+    line-height: 1.65;
   }
 
   .projects-page .section-label {
