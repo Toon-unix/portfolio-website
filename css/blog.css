@@ -32,16 +32,30 @@
 }
 
 .read-more {
-  display: inline-block;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
   margin-top: 8px;
+  padding: 8px 14px;
   font-family: 'Share Tech Mono', monospace;
-  font-size: 11px;
+  font-size: 12px;
+  line-height: 1.3;
+  text-align: center;
+  text-decoration: none;
+  color: #fff;
+  background: #000080;
+  border: 2px solid black;
 }
 
-.read-more:hover,
+.read-more:hover {
+  background: #0000cc;
+  color: #fff;
+}
+
 .post-link:hover {
   background: transparent;
   color: #0000cc;
+  text-decoration: underline;
 }
 
 .post-content {
